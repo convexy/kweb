@@ -9,4 +9,4 @@ python -m venv .
 source bin/activate
 python -m pip install -r requirements.txt
 
-sqlite3 db/main.sqlite3 < ddl.sql
+sqlite3 db/main.sqlite3 < db/ddl.sql
